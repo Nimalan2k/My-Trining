@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test_new2">
+  <parameter name="susername" value = "tutorial"></parameter>
+  <parameter name="spassword" value = "tutorial"></parameter>
+  <classes>
+<class name="training.Exc_PgmX"/>
+</classes>
+  
+  </test> <!-- Test_new2 -->
+  
+  
+</suite> <!-- Suite -->
